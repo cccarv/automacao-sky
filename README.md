@@ -10,7 +10,7 @@ Estrutura
     - Código de automação para o segundo desafio relacionado à automação mobile do aplicativo android SKY
     - Arquivo ../Automacao_mobile_sky.pdf
 
-Automação do website realizada utilizando-se a biblioteca SeleniumLibrary
+Automação do website realizada utilizando-se a biblioteca Browser (Playwright)
 Automação mobile realizada utilizando-se a biblioteca AppiumLibrary
 
 # Instructions

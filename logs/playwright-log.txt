@@ -1,0 +1,15 @@
+{"level":30,"time":"2021-09-03T19:21:40.371Z","pid":43565,"hostname":"fedora","msg":"Listening on 38911"}
+{"level":30,"time":"2021-09-03T19:21:40.587Z","pid":43565,"hostname":"fedora","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2021-09-03T19:21:40.595Z","pid":43565,"hostname":"fedora","msg":"Changed active context"}
+{"level":30,"time":"2021-09-03T19:21:40.752Z","pid":43565,"hostname":"fedora","msg":"Video path: undefined"}
+{"level":30,"time":"2021-09-03T19:21:40.753Z","pid":43565,"hostname":"fedora","msg":"Changed active page"}
+{"level":30,"time":"2021-09-03T19:21:46.652Z","pid":43565,"hostname":"fedora","msg":"Retrieved text for element xpath=//div[@class=\"schedule-inner schedule-live\"]//div[@class=\"program-schedule-content\"]//h2[@class=\"program-schedule-title\"] containing A RAINHA SOU EU"}
+{"level":30,"time":"2021-09-03T19:21:46.675Z","pid":43565,"hostname":"fedora","msg":"Retrieved text for element xpath=//div[@class=\"schedule-inner schedule-live\"]//div[@class=\"program-schedule-content\"]//div[@class=\"program-schedule-info\"]//div[@class=\"program-duration\"]//p containing 16:00 - 16:45"}
+{"level":30,"time":"2021-09-03T19:21:47.855Z","pid":43565,"hostname":"fedora","msg":"Retrieved text for element css=.sky-modal-program-title containing A RAINHA SOU EU"}
+{"level":30,"time":"2021-09-03T19:21:47.893Z","pid":43565,"hostname":"fedora","msg":"Retrieved text for element css=.sky-modal-program-date-time containing 16:00 - 16:45"}
+{"level":30,"time":"2021-09-03T19:21:47.904Z","pid":43565,"hostname":"fedora","msg":"Changed active context"}
+{"level":30,"time":"2021-09-03T19:21:47.904Z","pid":43565,"hostname":"fedora","msg":"Changing current active page"}
+{"level":30,"time":"2021-09-03T19:21:47.905Z","pid":43565,"hostname":"fedora","msg":"Changed active page"}
+{"level":30,"time":"2021-09-03T19:21:47.916Z","pid":43565,"hostname":"fedora","msg":"Changed active context"}
+{"level":30,"time":"2021-09-03T19:21:47.916Z","pid":43565,"hostname":"fedora","msg":"Changing current active page"}
+{"level":30,"time":"2021-09-03T19:21:47.916Z","pid":43565,"hostname":"fedora","msg":"Changed active page"}
