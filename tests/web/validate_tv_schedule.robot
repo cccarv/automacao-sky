@@ -1,7 +1,7 @@
 ***Settings***
 Documentation       Teste de validação da programação ao vivo do site Sky para Desafio Accenture
 
-Resource            ../../resources/base.robot
+Resource            ../../resources/base.web.robot
 Resource            ../../resources/keywords/validate_tv_schedule.kw.robot
 
 Suite Setup         Start Browser Session

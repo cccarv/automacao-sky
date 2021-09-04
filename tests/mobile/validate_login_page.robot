@@ -1,10 +1,9 @@
 ***Settings***
+Resource            ../../resources/base.mobile.robot
+Resource            ../../resources/keywords/validate_login_page.kw.robot
 
-Resource        ../../resources/base.robot
-Resource        ../../resources/keywords/validate_login_page.kw.robot
-
-Suite Setup     Go To SKY App Login Page
-Test Teardown   Close Session
+Suite Setup         Go To SKY App Login Page
+Suite Teardown      Close Session
 
 ***Test Cases***
 Test The Login Page With Invalid CPF

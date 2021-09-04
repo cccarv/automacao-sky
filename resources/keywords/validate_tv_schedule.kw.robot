@@ -1,5 +1,5 @@
 **Settings***
-Resource        ../base.robot
+Resource        ../base.web.robot
 
 ***Keywords***
 Close The Popup If It Shows
