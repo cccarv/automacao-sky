@@ -8,5 +8,5 @@ Mobile Local
     ...                 automationName=UiAutomator2
     ...                 platformName=Android
     ...                 app=${EXECDIR}/tests/mobile/app/sky.apk
-    #...                 udid=emulator-5554
-    ...                 udid=ZF5225M9PJ
+    ...                 udid=emulator-5554
+    #...                 udid=ZF5225M9PJ
