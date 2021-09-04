@@ -1,9 +1,9 @@
 **Settings***
-Resource        ../base.web.robot
+Resource                                                    ${EXECDIR}/resources/base.web.robot
 
 ***Keywords***
 Close The Popup If It Shows
-    Click                           css=button[class=close]
+    Click                                                   ${BUTTON_CLOSE_MODAL}
 
 Access The Programming Page
     Click                           css=a[href="/programacao"]
@@ -47,3 +47,6 @@ Go To Sky Site
     Go To                           http://www.sky.com.br
     Close The Popup If It Shows
     Take Screenshot
+
+***Variables***
+${BUTTON_CLOSE_MODAL}                                       css=button[class=close]
