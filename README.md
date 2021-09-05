@@ -25,6 +25,7 @@ Requerimentos:
     - Auto Recorder Library
     - Nodejs
     - Android Emulator
+    - Appium Desktop
 
 Como executar:
 Web: robot -d ./logs.web tests/web/validate_tv_schedule.robot
