@@ -1,6 +1,7 @@
 ***Settings***
 Resource        ${EXECDIR}/resources/base.mobile.robot
 Resource        ${EXECDIR}/resources/data/data.robot
+Resource        ${EXECDIR}/resources/keywords/bypass.robot
 Library         OperatingSystem
 
 ***Keywords***
@@ -103,6 +104,8 @@ Validate The Next Button
 
 Validate The Redirect Link To Sign On
     Click Element                           ${LINK_QUERO_ASSINAR}
+    ${bypass}=                              Run Keyword And Return Status                       Page Should Contain Element                ${BARRA_URL}
+    Run Keyword If                          '${bypass}'=='False'                                Bypass
     Wait Until Page Contains                SKY
     Element Text Should Be                  ${BARRA_URL}                                        ${LINK_ASSINE_SKY}
     Press Keycode                           4
