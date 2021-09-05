@@ -17,15 +17,21 @@ Automação do website realizada utilizando-se a biblioteca Browser (Playwright)
 Automação mobile realizada utilizando-se a biblioteca AppiumLibrary
 
 # Instruções
-Requerimentos:
-    - Python 3.x
-    - Robot Framework
-    - Appium Library
-    - Browser Library
-    - Auto Recorder Library
-    - Nodejs
-    - Android Emulator
-    - Appium Desktop
+- Instalar Python
+- Instalar Robot Framework
+	- pip install robotframework
+- Instalar Appium Library
+	- pip install --upgrade robotframework-appiumlibrary
+- Instalar NodeJS
+- Instalar Browser Library
+	- pip install robotframework-browser
+	- rfbrowser init
+- Instalar Autorecorder Library
+	- pip install robotframework-autorecorder
+- Instalar Android Studio
+- Instalar Appium Desktop
+- Instalar VSCode
+- Instalar Git
 
 Como executar:
 Web: robot -d ./logs.web tests/web/validate_tv_schedule.robot
