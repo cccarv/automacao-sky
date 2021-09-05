@@ -22,10 +22,12 @@ Requerimentos:
     - Robot Framework
     - Appium Library
     - Browser Library
+    - Auto Recorder Library
     - Nodejs
+    - Android Emulator
 
 Como executar:
-Web: robot -d ./logs.web testes/web/validate_tv_schedule.robot
-Mobile: robot -d ./logs.mobile testes/mobile/validate_login_page.robot
+Web: robot -d ./logs.web tests/web/validate_tv_schedule.robot
+Mobile: robot -d ./logs.mobile tests/mobile/validate_login_page.robot
 
 Obs.: Para os testes mobiles, deve-se utilizar um emulador android ou um celular conectado via adb, deve-se especificar no arquivo resource/base.mobile.robot qual device será utilizado (por padrão está especificado para ser executado via emulador).

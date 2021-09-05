@@ -8,6 +8,6 @@ Mobile Local
     ...                 automationName=UiAutomator2
     ...                 platformName=Android
     ...                 app=${EXECDIR}/resources/app/sky.apk
-    #...                 udid=emulator-5554
-    ...                 udid=ZF5225M9PJ
+    ...                 udid=emulator-5554
+    #...                 udid=ZF5225M9PJ
     #Register Keyword To Run On Failure          Capture Page Screenshot
