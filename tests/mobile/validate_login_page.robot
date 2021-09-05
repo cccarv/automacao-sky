@@ -5,7 +5,8 @@ Resource           ${EXECDIR}/resources/data/data.robot
 
 Suite Setup         Go To SKY App Login Page
 Suite Teardown      Close Session
-Test Teardown       Clear Fields
+#Test Setup          Start Screen Recording
+Test Teardown       Clear Fields And Stop Screen Recording
 
 ***Test Cases***
 TC001 - Test The Login Page With Invalid CPF

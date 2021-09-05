@@ -113,9 +113,10 @@ Click On Back Button
     Click Element                           ${BOTAO_VOLTAR}
     Wait Until Element Is Visible           ${MENU_DESTAQUES}
 
-Clear Fields
+Clear Fields And Stop Screen Recording
     ${needtoclean} =                        Run Keyword And Return Status                       Page Should Contain Element             ${CAMPO_CPF_CNJP}
     Run Keyword If                          '${needtoclean}'=='True'                            Clear Text                              ${CAMPO_CPF_CNJP}                      
+    #Stop Screen Recording
 
 ***Variables***
 ${BOTAO_CONTINUAR_PARA_SKY}                 id=br.com.sky.selfcare:id/2131427895
