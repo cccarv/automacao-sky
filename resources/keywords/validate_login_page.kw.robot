@@ -12,8 +12,12 @@ Set Variables
     Get Data
 
 Go To App Main Screen
-    Wait Until Element Is Visible           ${BOTAO_CONTINUAR_PARA_SKY}
-    Click Element                           ${BOTAO_CONTINUAR_PARA_SKY}
+    ${gotosky} =                            Run Keyword And Return Status                       Page Should Contain Element             ${BOTAO_CONTINUAR_PARA_SKY}
+    Run Keyword If                          '${gotosky}'=='True'                                Click Element                           ${BOTAO_CONTINUAR_PARA_SKY}                      
+
+
+    #Wait Until Element Is Visible           ${BOTAO_CONTINUAR_PARA_SKY}
+    #Click Element                           ${BOTAO_CONTINUAR_PARA_SKY}
     Wait Until Element Is Visible           ${MENU_PLAY}
     Click Element                           ${MENU_PLAY}
 
